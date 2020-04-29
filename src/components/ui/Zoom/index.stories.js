@@ -8,10 +8,10 @@ export default {
 
 const defaultProps = {
   width: "300px",
+  margin: "50px",
   height: "300px",
-  margin: "10px",
   src: "https://picsum.photos/300/200?image=244",
-  alt: "imagen",
+  alt: "imagen"
 };
 
 export const Basic = () => <Zoom {...defaultProps} variant="basic"/>;

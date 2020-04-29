@@ -11,15 +11,16 @@ const Zoom = ({
   alt,
   variant,
 }) => {
-  const Container = StyledContainer(width, height, margin, src, alt, variant);
+  const  Container = StyledContainer(width, height, margin, src, alt, variant);
   return (
-    <Container>
-      <StyledImage variant={variant} src={src} alt={alt} />
-    </Container>
+     <Container>
+      <StyledImage variant={variant} src={src} alt={alt} >
+      </StyledImage>
+    </ Container>
   );
 };
 
-Zoom.propTypes = {
+Zoom.PropTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   margin: PropTypes.string,
