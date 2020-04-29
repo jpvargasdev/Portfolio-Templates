@@ -20,7 +20,7 @@ const Zoom = ({
   );
 };
 
-Zoom.PropTypes = {
+Zoom.propTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   margin: PropTypes.string,

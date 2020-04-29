@@ -31,7 +31,7 @@ export const StyledImage = styled.img`
     
   //----Brightnees
     ${props => props.variant === "brightness" && css`
-    width: 100%;
+      width: 100%;
       height: 100%;
       transition: transform 2s, filter 1.5s ease-in-out;
       transform-origin: center;
@@ -46,7 +46,7 @@ export const StyledImage = styled.img`
 
   //----VerticalZoom
     ${props => props.variant === "vertical" && css`
-    width: 100%;
+      width: 100%;
       height: 100%;
       transition: transform .5s ease-in-out;
       transform: scale(1.4);
@@ -60,7 +60,7 @@ export const StyledImage = styled.img`
 
   //----Blur-Zoom
     ${ props => props.variant === "blur" && css`  
-    width: 100%;
+      width: 100%;
       height: 100%;
       transition: transform 1s, filter 2s ease-in-out;
       filter: blur(3px);
@@ -75,7 +75,7 @@ export const StyledImage = styled.img`
   
   //----Colors
     ${props => props.variant === "colors" && css` 
-    width: 100%;
+      width: 100%;
       height: 100%;
       transition: transform .5s, filter 1.5s ease-in-out;
       filter: grayscale(96%);
