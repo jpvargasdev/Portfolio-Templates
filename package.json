@@ -20,10 +20,10 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "build:storybook": "cross-env NODE_ENV=production build-storybook -c .storybook -o public/docs",
+    "build:storybook": "cross-env NODE_ENV=development build-storybook -c .storybook -o public/docs",
     "clean": "rimraf ./.cache ./public",
     "start": "gatsby develop",
-    "start:storybook": "cross-env NODE_ENV=production start-storybook -p 9000 -c .storybook",
+    "start:storybook": "cross-env NODE_ENV=development start-storybook -p 9000 -c .storybook",
     "lint": "eslint .",
     "serve": "gatsby serve"
   },
